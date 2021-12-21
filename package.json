@@ -1,0 +1,62 @@
+{
+  "name": "react-hooks-time-limit",
+  "version": "1.0.20",
+  "description": "React Hook for get seconds to the target time",
+  "scripts": {
+    "build": "rimraf ./lib && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Shu Nakashima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shu20031026/react-hooks-time-limit/issues"
+  },
+  "homepage": "https://github.com/shu20031026/react-hooks-time-limit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shu20031026/react-hooks-time-limit.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "hooks",
+    "target-time",
+    "hooks-api-react"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "files": [
+    "/src",
+    "/lib",
+    "/README.md",
+    "/LICENSE"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "jest-dom": "^4.0.0",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
+
