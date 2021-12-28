@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-time-limit",
-  "version": "1.0.20",
+  "version": "1.0.0",
   "description": "React Hook for get seconds to the target time",
   "scripts": {
     "build": "rimraf ./lib && tsc",
