@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { TimeLimitOption } from "./type"
 
-const getTimeLeft = (targetDate:Date , isSec: boolean) => {
+const getTimeLeft = (targetDate: Date , isSec: boolean) => {
   return (
     isSec ? 
       Math.floor((targetDate.getTime() - Date.now())/1000) :
