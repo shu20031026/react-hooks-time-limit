@@ -1,1 +1,2 @@
-export * from "./useTimeLimit"
+export { useTimeLimit } from "./useTimeLimit"
+export { TimeLimitOption} from "./type"
