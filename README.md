@@ -8,6 +8,9 @@
 React Hook for get seconds to the target time
 </p>
 
+![](https://user-images.githubusercontent.com/75605907/149351384-eeabdbb4-4787-4c63-8672-d42cde6e1e5f.gif)
+
+
 ## Instrallation
 You can install the package from npm.
 
@@ -53,8 +56,10 @@ const Component: React.FC = () => {
   );
 };
 ```
-![gd780-mox6d](https://user-images.githubusercontent.com/75605907/149351384-eeabdbb4-4787-4c63-8672-d42cde6e1e5f.gif)
 
-
+| Parameter          | Default |    Type   | Description                                           |
+| :----------------- | :-----: | :-------: | ----------------------------------------------------- |
+| intervalTime       |  `1000` |   `int`   | Time interval to update the remaining time (optional) |
+| isSec              | `false` | `boolean` | Returns seconds if true, ms if false (optional)       |
 ## License
 [MIT © shu20031026](./LICENSE)
